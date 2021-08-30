@@ -41,6 +41,7 @@ for l in range(2):
 print()
 print('Resultado Cálculo: Matriz [A + (B-C^T)] * B =')
 print('=-'* 8)
+
 for l in  range (2):
     for c in range(2):
         print(f'[{matrizresult[l][c]:^5}]', end='')
